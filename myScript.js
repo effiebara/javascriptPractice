@@ -32,6 +32,20 @@ convertTemperature(100,"c");
 // Write a JavaScript program to check whether a given number is in a given range. for example the program will 
 // take as arguments the number z and an array [x, y] and it should check whether z is within x, y. 
 
+function checkIfNumberIsInGivenRange(list,number){
+    
+    if (number>=list[0] && number<=list[1]){
+        return true;
+    }
+    else {
+        return false;
+    }
+    
+}
+checkIfNumberIsInGivenRange([2,20],5);
+
+
+
 
 
 
